@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("/images/illustration-devices.svg");
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: right;
+    background-position-x: 650px;
+    background-position-y: 180px;
+}
+.naviagtion {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.naviagtion ul{
+    float: right;
+}
+.naviagtion ul li{
+    display:inline-block;
+    padding: 0 20px;
+}
+.naviagtion ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: #252442;
+    font-size: 14px;
+    font-weight: 700;
+}
+.naviagtion #tochka{
+    display: block;
+    margin-bottom: 2.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    border: none;
+    background-color: #76767b;
+
+}
+.naviagtion  ul li .login-btn{
+    color: #76767b;
+}
+.naviagtion ul li a:hover{
+    border-bottom: 2px solid #252442;
+}
+
+.main-text{
+    margin-top: 120px;
+    float: left;
+    width: 50%;
+}
+.main-text h3 samp{
+    border: 1px solid #252442;
+    background-color: #252442;
+    color: #fff;
+    border-radius: 100px;
+    padding:  5px 8px 4px 10px;
+    font-weight: 700;
+    margin: 0 10px 20px 0;
+}
+.main-text h3{
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: #cacaca;
+    margin-bottom: 30px;
+    font-weight: none;
+}
+.main-text h1{
+    font-size: 55px;
+    font-weight: bold;
+    color: #252442;
+    letter-spacing: 2px;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+.main-text p{
+    text-transform: none;
+    color: #76767b;
+    font-family: sans-serif;
+    font-size: 20px;
+    width: 55%;
+    margin-bottom: 50px;
+}
+.main-text button{
+    color: #fff;
+    background-color: #ff0058;
+    border: none;
+    padding: 12px 40px;
+    text-transform:uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.main-text button:hover{
+    background-color: #fb687d;
+}
+.main-text samp{
+    color: #cacaca;
+    font-size: 16px;
+    font-family: 'Oswald';
+    margin-left: 20px;
+    letter-spacing: 3px;
+}
+#bg-color{
+    position: fixed;
+    background-attachment: absolute;
+    width: 1000px;
+    height: 500px;
+    background-color: #ecf2f6;
+    margin-left: 670px;
+    margin-top: 10px;
+    padding: 0;
+    border-radius: 50px;
+}
+@media(max-width:800px){
+    .naviagtion img{
+        max-width: 40px;
+        display: block;
+        margin: auto;
+        padding: auto;
+        width: 100%;
+    }
+    .naviagtion ul{
+        margin-top: 20px;
+        float: none;
+        text-align: center;
+    }
+    .naviagtion ul li{
+        display:inline-block;
+        padding: 0 20px;
+    }
+    .main-text{
+        margin-top: 50px;
+        float: none;
+        width: 100%;
+    }
+    .main-text h3 samp{
+        
+    }
+    .main-text h3{
+
+    }
+    .main-text h1{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .main-text p{
+        font-size: 15px;
+        width: 80%;
+        margin-bottom: 50px;
+    }
+    .main-text button{
+        padding: 8px 25px;
+        font-size: 14px;
+        text-transform:uppercase;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    .main-text samp{
+        font-size: 13px;
+    }
+
+}
+/* Ilhomjon Musayev https://t.me/musayevilhom  */
